@@ -1,34 +1,44 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jackson Sousa</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link
-      href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"/>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="shortcut icon" href="jackson.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="index.css" /> 
-    
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="-ovRB65khZMmyTwUuFuYw9Ml-JTtBMosYdmekanh6MA" />
+  <title>Jackson Sousa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="jackson.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
 
-  <body class="bg-[#000000] text-white min-h-screen">
+  <style>
+  .hamburger-line {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+    transition: all 0.3s ease;
+  }
+</style>
+</head>
 
-    <div class="container mx-auto px-4 py-8 relative z-10">
-      <nav class="flex justify-between items-center mb-20">
-        <div class="text-xl font-bold">
-          <span class="text-white">Jackson Sousa</span>
-          <span class="block text-sm text-gray-400">Cloud Analyst</span>
-        </div>
+<body class="bg-[#000000] text-white min-h-screen">
+  <div class="container mx-auto px-4 py-8 relative z-10">
+
+    <!-- Cabeçalho com título principal -->
+    <header class="mb-20">
+      <div class="text-xl font-bold">
+        <h1 class="text-white">Jackson Sousa</h1>
+        <p class="text-sm text-gray-400">Cloud Analyst</p>
+      </div>
+
+      <!-- Navegação -->
+      <nav class="flex justify-between items-center mt-6 relative" aria-label="Menu principal">
+        <!-- Menu Desktop -->
         <div class="hidden md:flex space-x-6">
           <a href="#home" class="text-[#00ff9d] hover:opacity-80 transition-opacity">HOME</a>
           <a href="#about" class="hover:text-[#00ff9d] transition-colors">SOBRE</a>
@@ -37,544 +47,432 @@
           <a href="#portfolio" class="hover:text-[#00ff9d] transition-colors">PROJETOS</a>
           <a href="#contact" class="hover:text-[#00ff9d] transition-colors">CONTATO</a>
         </div>
-    
+
+        <!-- Botão Hambúrguer -->
         <button class="hamburger md:hidden flex flex-col justify-center items-center w-8 h-8" aria-label="Menu">
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
         </button>
-    
-        <div class="menu-overlay"></div>
-      </nav>
-      </nav>
 
-      <section id="home" class="mb-32 fade-in">
-        <div class="flex flex-col md:flex-row items-center gap-8">
-          <img
-            src="jackson.png"
-            alt="Profile"
-            class="w-64 h-64 rounded-full object-cover border-4 border-[#00ff9d]"
-          />
-          <div>
-            <h1 class="text-4xl font-bold mb-4">
-              Olá, bem vindo ao meu Portfólio, sou<br/>
-              Jackson Sousa <span class="text-[#00ff9d]"></span><br />
-              Analista de Sistemas.
-            </h1>
-            <div class="flex gap-4 mt-6">
-              <a href="#" class="tech-icon">
-                <img
-                  src="https://icongr.am/devicon/css3-original.svg?size=128&color=currentColor
-                            "
-                  class="w-8 h-8"
-                  alt="CSS"
-                />
-                <a href="#" class="tech-icon">
-                  <img
-                    src="https://icongr.am/devicon/html5-original.svg?size=128&color=currentColor
-                              "
-                    class="w-8 h-8"
-                    alt="HTML5"
-                  />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor
-                            "
-                  class="w-8 h-8"
-                  alt="JavaScript"
-                />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg
-                            "
-                  class="w-8 h-8"
-                  alt="Python"
-                />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="https://icongr.am/devicon/wordpress-original.svg?size=128&color=currentColor
-                            "
-                  class="w-8 h-8"
-                  alt="WordPress"
-                />
-                <a href="#" class="tech-icon">
-                  <img
-                    src="https://icongr.am/devicon/php-original.svg?size=128&color=currentColor
-                              "
-                    class="w-8 h-8"
-                    alt="PHP"
-                  />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg
-                            "
-                  class="w-8 h-8"
-                  alt="Figma"
-                />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg
-                            "
-                  class="w-8 h-8"
-                  alt="Tailwind"
-                />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="https://icongr.am/devicon/git-original.svg?size=128&color=currentColor
-                            "
-                  class="w-8 h-8"
-                  alt="Git"
-                />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="https://icongr.am/devicon/mysql-original.svg?size=128&color=currentColor
-                            "
-                  class="w-8 h-8"
-                  alt="MySQL"
-                />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="https://icongr.am/devicon/linux-original.svg?size=128&color=currentColor
-                            "
-                  class="w-8 h-8"
-                  alt="Linux"
-                />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="https://icongr.am/devicon/windows8-original.svg?size=128&color=currentColor
-                            "
-                  class="w-8 h-8"
-                  alt="Windows"
-                />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="cpanel.svg"
-                  class="w-8 h-8"
-                  alt="Windows"
-                />
-              </a>
-              <a href="#" class="tech-icon">
-                <img
-                  src="plesk_logo_negative_SQUARE_rgb.png"
-                  class="w-8 h-8"
-                  alt="Windows"
-                />
-              </a>            
-            
-            </div>
+        <!-- Menu Mobile -->
+        <div id="mobile-menu"
+          class="hidden flex-col space-y-4 absolute top-20 right-0 bg-[#111] p-4 rounded-lg shadow-lg md:hidden z-50 w-48">
+          <a href="#home" class="text-[#00ff9d] hover:opacity-80 transition-opacity">HOME</a>
+          <a href="#about" class="hover:text-[#00ff9d] transition-colors">SOBRE</a>
+          <a href="#competence" class="hover:text-[#00ff9d] transition-colors">COMPETÊNCIAS</a>
+          <a href="#technology" class="hover:text-[#00ff9d] transition-colors">TECNOLOGIAS</a>
+          <a href="#portfolio" class="hover:text-[#00ff9d] transition-colors">PROJETOS</a>
+          <a href="#contact" class="hover:text-[#00ff9d] transition-colors">CONTATO</a>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="mb-32 fade-in">
+      <div class="flex flex-col md:flex-row items-center gap-8">
+        <img src="jackson.png" alt="Profile" class="w-64 h-64 rounded-full object-cover border-4 border-[#00ff9d]" />
+        <div>
+          <h1 class="text-4xl font-bold mb-4">
+            Olá, bem vindo ao meu Portfólio, sou<br />
+            Jackson Sousa <span class="text-[#00ff9d]"></span><br />
+            Analista de Sistemas.
+          </h1>
+          <div class="flex gap-4 mt-6 flex-wrap">
+            <a href="#" class="tech-icon">
+              <img src="https://icongr.am/devicon/css3-original.svg?size=128&color=currentColor" class="w-8 h-8"
+                alt="CSS" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://icongr.am/devicon/html5-original.svg?size=128&color=currentColor" class="w-8 h-8"
+                alt="HTML5" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor" class="w-8 h-8"
+                alt="JavaScript" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-8 h-8"
+                alt="Python" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://icongr.am/devicon/wordpress-original.svg?size=128&color=currentColor" class="w-8 h-8"
+                alt="WordPress" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://icongr.am/devicon/php-original.svg?size=128&color=currentColor" class="w-8 h-8"
+                alt="PHP" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="w-8 h-8"
+                alt="Figma" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                class="w-8 h-8" alt="Tailwind" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://icongr.am/devicon/git-original.svg?size=128&color=currentColor" class="w-8 h-8"
+                alt="Git" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://icongr.am/devicon/mysql-original.svg?size=128&color=currentColor" class="w-8 h-8"
+                alt="MySQL" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://icongr.am/devicon/linux-original.svg?size=128&color=currentColor" class="w-8 h-8"
+                alt="Linux" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="https://icongr.am/devicon/windows8-original.svg?size=128&color=currentColor" class="w-8 h-8"
+                alt="Windows" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="cpanel.webp" class="w-8 h-8" alt="cPanel" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="plesk1.webp" class="w-8 h-8" alt="Plesk" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="grafana.svg" class="w-8 h-8" alt="Grafana" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="zabbix.svg" class="w-8 h-8" alt="Zabbix" />
+            </a>
+            <a href="#" class="tech-icon">
+              <img src="servicenow.svg" class="w-8 h-8" alt="ServiceNow" />
+            </a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="about" class="mb-32 fade-in">
-        <h2 class="text-2xl font-bold text-[#00ff9d]">SOBRE</h2>
-        <p class="text-xl mb-4 text-gray-400">Sobre mim?</p>
-        <div class="flex flex-col md:flex-row gap-8 items-start">
-          <div>
-            <p class="text-gray-400 text-xl mb-6">
-                Atualmente, atuo como analista de suporte Cloud/revenda/SaaS na maior empresa de hospedagem do Brasil, a Locaweb. Onde realizo analise de software e sites de clientes , juntamente com uma equipe experiente e dedicada. <br><br>Sou uma pessoa confiável, colaborativa e analítica, sempre buscando soluções para os desafios que surgem.<br>
-           
-                Tenho conhecimentos em HTML, CSS, JavaScript, Python, MySQL, WordPress, Git, Linux, Windows, cPanel, Plesk, AWS, E-mail marketing, SMTP, Pabx Virtual, Google Workspace e metodologia ágil. <br><br>Minha abordagem proativa e amigável me permite trabalhar bem em equipe e construir relacionamentos positivos com clientes,
-               
-                estou continuamente estudando e aprimorando minhas habilidades em TI, para expandir minhas qualificações.
-            </p>
-            <div class="flex gap-4 mt-1">
-              <a
-                href="https://www.linkedin.com/in/jackson-psousa/"
-                class="w-12 h-12 bg-[#0077B5] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                  class="w-8 h-8"
-                  alt="LinkedIn"
-                />
-              </a>
-              <a
-                href="https://github.com/Jackson9008"
-                class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                  class="w-8 h-8"
-                  alt="GitHub"
-                />
-              </a>
-            </div>
+    <section id="about" class="mb-32 fade-in">
+      <h2 class="text-2xl font-bold text-[#00ff9d]">SOBRE</h2>
+      <p class="text-xl mb-4 text-gray-400">Sobre mim?</p>
+      <div class="flex flex-col md:flex-row gap-8 items-start">
+        <div>
+          <p class="text-gray-400 text-xl mb-6">
+            Atualmente, atuo como analista de suporte Cloud/revenda/SaaS na maior empresa de hospedagem do Brasil, a
+            Locaweb. Onde realizo analise de software e sites de clientes , juntamente com uma equipe experiente e
+            dedicada. <br /><br />
+            Sou uma pessoa confiável, colaborativa e analítica, sempre buscando soluções para os desafios que
+            surgem.<br />
+            Tenho conhecimentos em HTML, CSS, JavaScript, Python, MySQL, WordPress, Git, Linux, Windows, Grafana, Zabbix, cPanel, Plesk,
+            AWS, E-mail marketing, SMTP, Pabx Virtual, Google Workspace, ServiceNow e metodologia ágil. <br /><br />
+            Minha abordagem proativa e amigável me permite trabalhar bem em equipe e construir relacionamentos positivos
+            com clientes, estou continuamente estudando e aprimorando minhas habilidades em TI, para expandir minhas
+            qualificações.
+          </p>
+          <div class="flex gap-4 mt-1">
+            <a href="https://www.linkedin.com/in/jackson-psousa/"
+              class="w-12 h-12 bg-[#0077B5] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
+              target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                class="w-8 h-8" alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/Jackson9008"
+              class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
+              target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-8 h-8"
+                alt="GitHub" />
+            </a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <div class="min-h-screen flex items-center justify-center grid-bg">
-        <section id="competence" class="w-full max-w-6xl relative">
-          <div class="absolute inset-0 rounded-3xl filter blur-xl"></div>
-          <div class="relative">
-            <h2 class="text-2xl font-bold text-[#00ff9d] mb-4 neon-text">
-              COMPETÊNCIAS
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 class="text-2xl font-bold mb-6 flex items-center">
-                  <span class="text-[#00ff9d] mr-2 neon-text">+</span>
-                  Formação
-                </h3>
+    <div class="min-h-screen flex items-center justify-center grid-bg">
+      <section id="competence" class="w-full max-w-6xl relative">
+        <div class="absolute inset-0 rounded-3xl filter blur-xl"></div>
+        <div class="relative">
+          <h2 class="text-2xl font-bold text-[#00ff9d] mb-4 neon-text">
+            COMPETÊNCIAS
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="text-[#00ff9d] mr-2 neon-text">+</span>
+                Formação
+              </h3>
 
-                <div class="space-y-6">
-                  <div
-                    class="tech-card p-6 rounded-xl border border-gray-800 hover:border-[#00ff9d] transition-all"
-                  >
-                    <div class="flex items-start justify-between">
-                      <h4 class="font-bold mb-2 text-xl">
-                        Analista de Sistemas
-                      </h4>
-                      <div
-                        class="px-3 py-1 bg-[#00ff9d]/10 rounded-full text-[#00ff9d] text-xs"
-                      >
-                        Em andamento
-                      </div>
-                    </div>
-                    <p class="text-[#00ff9d] text-sm mb-2">UniFecaf</p>
-                    <p class="text-gray-400 text-sm">
-                    Sou estudante de Análise e Desenvolvimento de Sistemas, atualmente no 3º período da minha jornada acadêmica.<br>
-                    venho explorando os fundamentos da programação, arquitetura de sistemas e gerenciamento de projetos.
-                    </p>
-                  </div>
-
-                  <div
-                    class="tech-card p-6 rounded-xl border border-gray-800 hover:border-[#00ff9d] transition-all"
-                  >
-                    <div class="flex items-start justify-between">
-                      <h4 class="font-bold mb-2 text-lg">Amazon RDS</h4>
-                      <div
-                        class="px-3 py-1 bg-[#00ff9d]/10 rounded-full text-[#00ff9d] text-xs"
-                      >
-                      Em andamento
-                      </div>
-                    </div>
-                    <p class="text-[#00ff9d] text-sm mb-2"> AWS </p>
-                    <p class="text-gray-400 text-sm">
-                    Adquirindo experiência prática com tecnologias de armazenamento e gerenciamento de banco de dados na nuvem, como o AWS RDS.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <h3 class="text-2xl font-bold mb-6 flex items-center">
-                  <span class="text-[#00ff9d] mr-2 neon-text">+</span>
-                  Experiências
-                </h3>
-                <div class="space-y-12">
-                  <div class="experience-item fade-in">
-                    <h3 class="text-xl font-bold mb-2">Freelancer</h3>
-                    <p class="text-[#00ff9d] mb-4">Desenvolvedor Sites WordPress</p>
-                    <p class="text-gray-400">
-                      Desenvolvimento de sites modernos e responsivos, criando soluções e experiências de usuário personalizadas.
-                    </p>
-                    <div class="flex gap-2 mt-4">
-
-                      <img
-                        src="https://icongr.am/devicon/css3-original.svg?size=128&color=currentColor"
-                        class="w-6 h-6 tech-icon"
-                        alt="Css"
-                      />
-                      <img
-                        src="https://icongr.am/devicon/html5-original.svg?size=128&color=currentColor"
-                        class="w-6 h-6 tech-icon"
-                        alt="HTML"
-                      />
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                        class="w-6 h-6 tech-icon"
-                        alt="JavaScript"
-                      />
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-                        class="w-6 h-6 tech-icon"
-                        alt="Python"
-                      />
-                      <img
-                      src="https://icongr.am/devicon/wordpress-original.svg?size=128&color=currentColor"
-                      class="w-6 h-6 tech-icon"
-                      alt="WordPress"
-                    />
-                    <img
-                    src="https://icongr.am/devicon/php-original.svg?size=128&color=currentColor"
-                    class="w-6 h-6 tech-icon"
-                    alt="PHP"
-                    />
-                    <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                    class="w-6 h-6 tech-icon"
-                    alt="Figma"
-                    />
-                      <img
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
-                      class="w-6 h-6 tech-icon"
-                      alt="Tailwind"
-                    />
-                    <img
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                      class="w-6 h-6 tech-icon"
-                      alt="Git"
-                    />
-                    <img
-                      src="https://icongr.am/devicon/mysql-original-wordmark.svg?size=128&color=050505"
-                      class="w-8 h-8 tech-icon"
-                      alt="MySQL"
-                    />
-                    <img
-                      src="https://icongr.am/devicon/linux-original.svg?size=128&color=050505"
-                      class="w-6 h-6 tech-icon"
-                      alt="Linux"
-                    />
-                    <img
-                      src="https://icongr.am/devicon/windows8-original.svg?size=128&color=050505"
-                      class="w-6 h-6 tech-icon"
-                      alt="Windows"
-                    />
-                    <img
-                      src="https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor"
-                      class="w-6 h-6 tech-icon"
-                      alt="React"
-                    />
-                    <img
-                      src="https://icongr.am/devicon/bootstrap-plain-wordmark.svg?size=128&color=ac07e9"
-                      class="w-6 h-6 tech-icon"
-                      alt="Bootstrap"
-                    />
-                    </div>
-                  </div>
-
-                  <div class="experience-item fade-in">
-                    <h3 class="text-xl font-bold mb-2">
+              <div class="space-y-6">
+                <article class="tech-card p-6 rounded-xl border border-gray-800 hover:border-[#00ff9d] transition-all">
+                  <header class="flex items-start justify-between">
+                    <h4 class="font-bold mb-2 text-xl">
                       Analista de Sistemas
-                    </h3>
-                    <p class="text-[#00ff9d] mb-4">Locaweb S/A</p>
-                    <p class="text-gray-400">
-                      Atuação em Suporte para Hospedagem de sites e Servidores Dedicados.
-                    </p>
-                    <div class="flex gap-2 mt-4">
-                      <img
-                      src="https://icongr.am/devicon/html5-original.svg?size=128&color=050505"
-                      class="w-6 h-6 tech-icon"
-                      alt="HTML5"
-                    />
-                    <img
-                      src="https://icongr.am/devicon/wordpress-original.svg?size=128&color=050505"
-                      class="w-6 h-6 tech-icon"
-                      alt="WordPress"
-                    />
-                    <img
-                      src="https://icongr.am/devicon/mysql-original-wordmark.svg?size=128&color=050505"
-                      class="w-8 h-8 tech-icon"
-                      alt="MySQL"
-                    />
-                    <img
-                      src="https://icongr.am/devicon/linux-original.svg?size=128&color=050505"
-                      class="w-6 h-6 tech-icon"
-                      alt="Linux"
-                    />
-                    <img
-                      src="https://icongr.am/devicon/windows8-original.svg?size=128&color=050505"
-                      class="w-6 h-6 tech-icon"
-                      alt="Windows"
-                    />
-                    <img
-                      src="cpanel.svg"
-                      class="w-6 h-6 tech-icon"
-                      alt="cPanel"
-                    />
-                    <img
-                      src="plesk_logo_negative_SQUARE_rgb.png"
-                      class="w-6 h-6 tech-icon"
-                      alt="Plesk"
-                    />
-                  
-                   </div>
-                  </div>
-                </div>
+                    </h4>
+                    <div class="px-3 py-1 bg-[#00ff9d]/10 rounded-full text-[#00ff9d] text-xs">
+                      Em andamento
+                    </div>
+                  </header>
+                  <p class="text-[#00ff9d] text-sm mb-2">UniFecaf</p>
+                  <p class="text-gray-400 text-sm">
+                    Sou estudante de Análise e Desenvolvimento de Sistemas, atualmente no 3º período da minha jornada
+                    acadêmica.<br />
+                    Venho explorando os fundamentos da programação, arquitetura de sistemas e gerenciamento de projetos.
+                  </p>
+                </article>
+
+                <article class="tech-card p-6 rounded-xl border border-gray-800 hover:border-[#00ff9d] transition-all">
+                  <header class="flex items-start justify-between">
+                    <h4 class="font-bold mb-2 text-lg">Amazon RDS</h4>
+                    <div class="px-3 py-1 bg-[#00ff9d]/10 rounded-full text-[#00ff9d] text-xs">
+                      Em andamento
+                    </div>
+                  </header>
+                  <p class="text-[#00ff9d] text-sm mb-2">AWS</p>
+                  <p class="text-gray-400 text-sm">
+                    Adquirindo experiência prática com tecnologias de armazenamento e gerenciamento de banco de dados na
+                    nuvem, como o AWS RDS.
+                  </p>
+                </article>
               </div>
             </div>
 
-            <section id="technology" class="mt-20 mb-20">
-              <h2 class="text-2xl font-bold text-[#00ff9d] mb-2">TECNOLOGIAS</h2>
-              <p class="text-xl mb-10 text-gray-400">Tecnologia</p>
-              
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div class="tech-card p-6 rounded-lg fade-in">
-                      <h4 class="text-lg font-bold mb-4 flex items-center gap-2">
-                          <span class="text-[#00ff9d]">+</span>
-                          Ferramentas
-                      </h4>
-                      <div class="space-y-2">
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>VS Code</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                            <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                            <span>Windows</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>Linux</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>cPanel</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>Plesk</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                            <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                            <span>Saas</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>Git</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>GitHub</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>Figma</span>
-                          </div>
-                      </div>
+            <div>
+              <h3 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="text-[#00ff9d] mr-2 neon-text">+</span>
+                Experiências
+              </h3>
+              <div class="space-y-12">
+                <article class="experience-item fade-in">
+                  <h4 class="text-xl font-bold mb-2">Freelancer</h4>
+                  <p class="text-[#00ff9d] mb-4">Desenvolvedor Sites WordPress</p>
+                  <p class="text-gray-400">
+                    Desenvolvimento de sites modernos e responsivos, criando soluções e experiências de usuário
+                    personalizadas.
+                  </p>
+                  <div class="flex gap-2 mt-4 flex-wrap">
+                    <img src="https://icongr.am/devicon/css3-original.svg?size=128&color=currentColor"
+                      class="w-6 h-6 tech-icon" alt="CSS" />
+                    <img src="https://icongr.am/devicon/html5-original.svg?size=128&color=currentColor"
+                      class="w-6 h-6 tech-icon" alt="HTML" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                      class="w-6 h-6 tech-icon" alt="JavaScript" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                      class="w-6 h-6 tech-icon" alt="Python" />
+                    <img src="https://icongr.am/devicon/wordpress-original.svg?size=128&color=currentColor"
+                      class="w-6 h-6 tech-icon" alt="WordPress" />
+                    <img src="https://icongr.am/devicon/php-original.svg?size=128&color=currentColor"
+                      class="w-6 h-6 tech-icon" alt="PHP" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                      class="w-6 h-6 tech-icon" alt="Figma" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                      class="w-6 h-6 tech-icon" alt="Tailwind" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                      class="w-6 h-6 tech-icon" alt="Git" />
+                    <img src="https://icongr.am/devicon/mysql-original-wordmark.svg?size=128&color=050505"
+                      class="w-8 h-8 tech-icon" alt="MySQL" />
+                    <img src="https://icongr.am/devicon/linux-original.svg?size=128&color=050505"
+                      class="w-6 h-6 tech-icon" alt="Linux" />
+                    <img src="https://icongr.am/devicon/windows8-original.svg?size=128&color=050505"
+                      class="w-6 h-6 tech-icon" alt="Windows" />
+                    <img src="https://icongr.am/devicon/react-original-wordmark.svg?size=128&color=currentColor"
+                      class="w-6 h-6 tech-icon" alt="React" />
+                    <img src="https://icongr.am/devicon/bootstrap-plain-wordmark.svg?size=128&color=ac07e9"
+                      class="w-6 h-6 tech-icon" alt="Bootstrap" />
                   </div>
-  
-                  <div class="tech-card p-6 rounded-lg fade-in">
-                      <h4 class="text-lg font-bold mb-4 flex items-center gap-2">
-                          <span class="text-[#00ff9d]">+</span>
-                          Framework
-                      </h4>
-                      <div class="space-y-2">
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>Bootstrap</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>Tailwind</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>React</span>
-                          </div>
-                      </div>
+                </article>
+
+                <article class="experience-item fade-in">
+                  <h4 class="text-xl font-bold mb-2">
+                    Analista de Sistemas
+                  </h4>
+                  <p class="text-[#00ff9d] mb-4">Locaweb S/A</p>
+                  <p class="text-gray-400">
+  Atuo na Locaweb prestando suporte técnico especializado para clientes de hospedagem de sites e servidores dedicados. Minhas responsabilidades incluem análise e suporte em ambientes de hospedagem dedicada, administração de servidores Linux (via SSH) e Windows (via RDP), além do monitoramento via Grafana, Zabbix e soluções em Cloud e VPS. Realizo a instalação de certificados SSL, gerenciamento de DNS, análise de banco de dados, suporte a serviços como PABX virtual, E-mail Marketing, SMTP, ServiceNow e Google Workspace. Também atuo no registro de domínios, administração de arquivos via FTP/SSH e na resolução de incidentes técnicos, garantindo alta disponibilidade e eficiência dos serviços contratados.
+</p>
+
+                  <div class="flex gap-2 mt-4 flex-wrap">
+                    <img src="https://icongr.am/devicon/html5-original.svg?size=128&color=050505"
+                      class="w-6 h-6 tech-icon" alt="HTML5" />
+                    <img src="https://icongr.am/devicon/wordpress-original.svg?size=128&color=050505"
+                      class="w-6 h-6 tech-icon" alt="WordPress" />
+                    <img src="https://icongr.am/devicon/mysql-original-wordmark.svg?size=128&color=050505"
+                      class="w-8 h-8 tech-icon" alt="MySQL" />
+                    <img src="https://icongr.am/devicon/linux-original.svg?size=128&color=050505"
+                      class="w-6 h-6 tech-icon" alt="Linux" />
+                    <img src="https://icongr.am/devicon/windows8-original.svg?size=128&color=050505"
+                      class="w-6 h-6 tech-icon" alt="Windows" />
+                    <img src="cpanel.webp" class="w-6 h-6 tech-icon" alt="cPanel" />
+                    <img src="plesk1.webp" class="w-6 h-6 tech-icon" alt="Plesk" />
+                    <img src="grafana.svg" class="w-8 h-8 tech-icon" alt="Grafana" />
+                    <img src="zabbix.svg" class="w-6 h-6 tech-icon" alt="Zabbix" />
+                    <img src="servicenow.svg" class="w-8 h-8 tech-icon" alt="ServiceNow" />
                   </div>
-  
-                  <div class="tech-card p-6 rounded-lg fade-in">
-                      <h4 class="text-lg font-bold mb-4 flex items-center gap-2">
-                          <span class="text-[#00ff9d]">+</span>
-                          Linguagens
-                      </h4>
-                      <div class="space-y-2">
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>JavaScript</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>HTML</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                            <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                            <span>CSS</span>
-                        </div>
-                        
-                          <div class="flex items-center gap-2">
-                              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                              <span>Python</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                            <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                            <span>PHP</span>
-                          </div>
-                          <div class="flex items-center gap-2">
-                            <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
-                            <span>MySQL</span>
-                          </div>
-                      </div>
-                  </div>
+                </article>
               </div>
-          </section>
-
-      <section id="portfolio" class="mb-32">
-        <h2 class="text-2xl font-bold text-[#00ff9d] mb-2">PORTFÓLIO</h2>
-        <p class="text-xl mb-8 text-gray-400">Meus projetos</p>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div class="portfolio-card rounded-lg overflow-hidden fade-in">
-            <img
-              src="capa.png"
-              alt="Project 1"
-              class="w-full h-48 object-cover"
-            />
-            <div class="p-6">
-              <h3 class="text-lg font-bold mb-2">Anna Bella</h3>
-              <p class="text-gray-400 mb-1">"💻 Transformando o universo da moda em uma jornada digital cativante e interativa, o projeto Anna Bella combina elegância e tecnologia para redefinir a experiência do usuário. Cada clique não apenas exibe estilo e inspiração, mas também reflete um trabalho minucioso em design responsivo e navegação intuitiva. Com elementos modernos e cuidadosamente elaborados, o site convida os visitantes a explorar tendências e a se conectar com o mundo da moda de maneira única e envolvente. É mais do que um blog – é uma vitrine digital que celebra a arte da moda em cada detalhe."</p>
-              <p>Visite site - http://annabella.atlashost.com.br/</p>
-              <br>
-              <a
-              href="https://github.com/Jackson9008/Site-Anna-Bella-"
-              class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                class="w-8 h-8"
-                alt="GitHub"
-              />
-            </a>
-            
             </div>
           </div>
+        </div>
+      </section>
+    </div>
 
-          <div class="portfolio-card rounded-lg overflow-hidden fade-in">
-            <img
-              src="siteteste.tecnologia.ws.jpeg"
-              alt="Project 2"
-              class="w-full h-48 object-cover"
-            />
-            <div class="p-6">
-              <h3 class="text-lg font-bold mb-2">Smart Tech</h3>
-              <p class="text-gray-400 mb-1">"💻 Cativando o comércio de celulares com um site que une modernidade e estilo. Uma interface criativa, navegação intuitiva e design responsivo oferecem uma experiência digital que reflete a essência da marca. Desenvolvido com HTML, CSS e JavaScript, cada detalhe combina funcionalidade e harmonia para deixar uma impressão inesquecível."</p>
-              <p>Visite site - https://sitetestetecnolo1.websiteseguro.com/</p>
-              <br>
-              <a
-              href="https://github.com/Jackson9008/Smart-Tech"
-              class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
-                class="w-8 h-8"
-                alt="GitHub"
-              />
-            </a>
+    <section id="technology" class="mt-20 mb-20">
+      <h2 class="text-2xl font-bold text-[#00ff9d] mb-2">TECNOLOGIAS</h2>
+      <p class="text-xl mb-10 text-gray-400">Tecnologia</p>
 
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="tech-card p-6 rounded-lg fade-in">
+          <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+            <span class="text-[#00ff9d]">+</span>
+            Ferramentas
+          </h3>
+          <div class="space-y-2">
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>VS Code</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>Windows</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>Linux</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>Grafana</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>Zabbix</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>ServiceNow</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>cPanel</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>Plesk</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>SaaS</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>Git</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>GitHub</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>Figma</span>
             </div>
           </div>
-          <div class="portfolio-card rounded-lg overflow-hidden fade-in" >
-            <img
-              src="Captura de tela_21-4-2025_212128_dev.atlashost.com.br.jpeg"
-              alt="Project 1"
-              class="w-full h-48 object-cover"
-            />
-            <div class="p-6">
-              <h3 class="text-lg font-bold mb-2"><link rel="stylesheet" href="http://dev.atlashost.com.br/"> Interface de Login - Atlas Host</h3>
-              <p class="text-gray-400 mb-1">"🖥️ Tela de Login Atlas Host
+        </div>
+
+        <div class="tech-card p-6 rounded-lg fade-in">
+          <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+            <span class="text-[#00ff9d]">+</span>
+            Frameworks
+          </h3>
+          <div class="space-y-2">
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>Bootstrap</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>Tailwind</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>React</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card p-6 rounded-lg fade-in">
+          <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+            <span class="text-[#00ff9d]">+</span>
+            Linguagens
+          </h3>
+          <div class="space-y-2">
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>JavaScript</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>HTML</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>CSS</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>Python</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>PHP</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 bg-[#00ff9d] rounded-full"></div>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="mb-32">
+  <h2 class="text-2xl font-bold text-[#00ff9d] mb-2">PORTFÓLIO</h2>
+  <p class="text-xl mb-8 text-gray-400">Meus projetos</p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <!-- Projeto: Anna Bella -->
+    <div class="portfolio-card rounded-lg overflow-hidden fade-in">
+      <img src="bella.png" alt="Projeto Anna Bella" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h3 class="text-lg font-bold mb-2">Anna Bella</h3>
+        <p class="text-gray-400 mb-1">💻 Transformando o universo da moda em uma jornada digital cativante e interativa, o projeto Anna Bella combina elegância e tecnologia para redefinir a experiência do usuário. 
+          Cada clique não apenas exibe estilo e inspiração, mas também reflete um trabalho minucioso em design responsivo e navegação intuitiva. 
+          Com elementos modernos e cuidadosamente elaborados, o site convida os visitantes a explorar tendências e a se conectar com o mundo da moda de maneira única e envolvente. 
+          É mais do que um blog – é uma vitrine digital que celebra a arte da moda em cada detalhe.</p>
+        <p class="text-gray-400">Visite site - <a href="http://annabella.atlashost.com.br/" class="text-[#00ff9d]">annabella.atlashost.com.br</a></p>
+        <div class="mt-4">
+          <a href="https://github.com/Jackson9008/Site-Anna-Bella-" class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-8 h-8" alt="GitHub" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto: Smart Tech -->
+    <div class="portfolio-card rounded-lg overflow-hidden fade-in">
+      <img src="siteteste.tecnologia.ws.jpeg" alt="Smart Tech" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h3 class="text-lg font-bold mb-2">Smart Tech</h3>
+        <p class="text-gray-400 mb-1">💻 Cativando o comércio de celulares com um site que une modernidade e estilo. 
+          Uma interface criativa, navegação intuitiva e design responsivo oferecem uma experiência digital que reflete a essência da marca. 
+          Desenvolvido com HTML, CSS e JavaScript, cada detalhe combina funcionalidade e harmonia para deixar uma impressão inesquecível.</p>
+        <p class="text-gray-400">Visite site - <a href="https://sitetestetecnolo1.websiteseguro.com/" class="text-[#00ff9d]">sitetestetecnolo1.websiteseguro.com</a></p>
+        <div class="mt-4">
+          <a href="https://github.com/Jackson9008/Smart-Tech" class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-8 h-8" alt="GitHub" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto: Login Atlas Host -->
+    <div class="portfolio-card rounded-lg overflow-hidden fade-in">
+      <img src="Captura de tela_21-4-2025_212128_dev.atlashost.com.br.jpeg" alt="Interface Login Atlas Host" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h3 class="text-lg font-bold mb-2">Interface de Login - Atlas Host</h3>
+        <p class="text-gray-400 mb-1">🖥️ Tela de Login Atlas Host
 
                 A interface representa uma tela de login moderna do sistema Atlas Host, com fundo digital de códigos binários que criam uma atmosfera tecnológica. O layout centralizado traz campos para usuário/e-mail, senha, e botões como "Entrar", além de links para cadastro e recuperação de senha.
                 
@@ -588,32 +486,22 @@
                 
                 JavaScript (opcional): para interações como lembrar senha e validações.
                 
-                Ideal para sistemas de hospedagem, plataformas de TI ou soluções digitais."</p>
-                <p>Visite site - https://dev.atlashost.com.br/</p>
-                <br>
-              <a
-              href="https://git@github.com:Jackson9008/Tela-Login.git"
-              class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                class="w-8 h-8"
-                alt="GitHub"
-              />
-            </a>
-            
-            </div>
-          </div>
-          <div class="portfolio-card rounded-lg overflow-hidden fade-in">
-            <img
-              src="portfólio.jpeg"
-              alt="Project 2"
-              class="w-full h-48 object-cover"
-            />
-            <div class="p-6">
-              <h3 class="text-lg font-bold mb-2">Portfólio</h3>
-              
-            <p class="text-gray-400 mb-1">"🌐 Meu Portfólio - Jackson Sousa
+                Ideal para sistemas de hospedagem, plataformas de TI ou soluções digitais.</p>
+        <p class="text-gray-400">Visite site - <a href="https://dev.atlashost.com.br/" class="text-[#00ff9d]">dev.atlashost.com.br</a></p>
+        <div class="mt-4">
+          <a href="https://github.com/Jackson9008/Tela-Login" class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-8 h-8" alt="GitHub" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto: Portfólio -->
+    <div class="portfolio-card rounded-lg overflow-hidden fade-in">
+      <img src="portfólio.jpeg" alt="Portfólio Pessoal" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h3 class="text-lg font-bold mb-2">Portfólio</h3>
+        <p class="text-gray-400 mb-1">🌐 🌐 Meu Portfólio - Jackson Sousa
 
               Este site representa meu portfólio profissional, Analista de Sistemas. Com um visual moderno e escuro (dark mode), o site destaca minha trajetória em formação, competências, tecnologias dominadas, projetos desenvolvidos e informações de contato.
               
@@ -641,30 +529,22 @@
               
               JavaScript – para interações dinâmicas no formulário de contato e navegação fluida
               
-              Este portfólio serve como uma vitrine digital completa, voltada para o mercado de tecnologia e desenvolvimento web."</p>
-              <p>Visite site - https://www.jacksonsousa.com.br/</p>
-              <br>
-            <a
-            href="https://git@github.com:Jackson9008/portf-lio.git"
-            class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-          >
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-              class="w-8 h-8"
-              alt="GitHub"
-            />
+              Este portfólio serve como uma vitrine digital completa, voltada para o mercado de tecnologia e desenvolvimento web.</p>
+        <p class="text-gray-400">Visite site - <a href="https://www.jacksonsousa.com.br/" class="text-[#00ff9d]">jacksonsousa.com.br</a></p>
+        <div class="mt-4">
+          <a href="https://github.com/Jackson9008/portf-lio" class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-8 h-8" alt="GitHub" />
           </a>
-            </div>
-          </div>
-          <div class="portfolio-card rounded-lg overflow-hidden fade-in">
-            <img
-              src="murakami.comercial.ws.jpeg"
-              alt="Project 3"
-              class="w-full h-48 object-cover"
-            />
-            <div class="p-6">
-              <h3 class="text-lg font-bold mb-2">Murakami Pisos</h3>
-              <p class="text-gray-400 mb-4">"🌐 Murakami Pisos de Madeira
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto: Murakami Pisos -->
+    <div class="portfolio-card rounded-lg overflow-hidden fade-in">
+      <img src="murakami.comercial.ws.jpeg" alt="Murakami Pisos de Madeira" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h3 class="text-lg font-bold mb-2">Murakami Pisos</h3>
+        <p class="text-gray-400 mb-1">🌐 Murakami Pisos de Madeira
                 A imagem mostra o site institucional da Murakami Pisos de Madeira, desenvolvido em WordPress, com um visual profissional, limpo e elegante, voltado para apresentar a empresa e seus serviços no ramo de pisos de madeira.
                 
                 🧩 Tecnologias e Plugins Utilizados:
@@ -687,29 +567,22 @@
                 
                 JavaScript / jQuery: Usados para interações e animações leves.
                 
-                MySQL: Banco de dados utilizado para armazenar conteúdo e configurações."</p>
-              <a
-              href="http://murakami.comercial.ws"
-              class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="https://icongr.am/devicon/chrome-original.svg?size=128&color=currentColor"
-                class="w-8 h-8"
-                alt="Google-chrome"
-              />
-            </a>
-            </div>
-            
-          </div>
-          <div class="portfolio-card rounded-lg overflow-hidden fade-in">
-            <img
-              src="atlashost.com.br.jpeg"
-              alt="Project 2"
-              class="w-full h-48 object-cover"
-            />
-            <div class="p-6">
-              <h3 class="text-lg font-bold mb-2">Em construção - Atlas Host</h3>
-              <p class="text-gray-400 mb-1">"💻 Descrição da Página Inicial - Atlas Host
+                MySQL: Banco de dados utilizado para armazenar conteúdo e configurações.</p>
+        <p class="text-gray-400">Visite site - <a href="http://murakami.comercial.ws/" class="text-[#00ff9d]">murakami.comercial.ws</a></p>
+        <div class="mt-4">
+          <a href="http://murakami.comercial.ws" class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
+            <img src="https://icongr.am/devicon/chrome-original.svg?size=128&color=currentColor" class="w-8 h-8" alt="Acessar site" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto: Atlas Host - Página Inicial -->
+    <div class="portfolio-card rounded-lg overflow-hidden fade-in">
+      <img src="atlashost.webp" alt="Atlas Host Home" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h3 class="text-lg font-bold mb-2">Em construção - Atlas Host</h3>
+        <p class="text-gray-400 mb-1">💻 Descrição da Página Inicial - Atlas Host
                 A imagem mostra uma página de boas-vindas simples e objetiva, feita para o site Atlas Host. O layout é centrado e destaca uma mensagem de recepção ao visitante, com uma interface moderna e cores vibrantes.
                 
                 🧩 Conteúdo da Página:
@@ -733,344 +606,240 @@
                 Estilização do fundo vermelho, centralização, espaçamento, cores e bordas arredondadas.
                 
                 JavaScript:
-                Usado para exibir o relógio em tempo real e a data atual automaticamente, provavelmente utilizando setInterval() e Date()."</p>
-            
-              <br>
-              <a
-              href="http://www.atlashost.com.br"
-              class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="https://icongr.am/devicon/chrome-original.svg?size=128&color=currentColor"
-                class="w-8 h-8"
-                alt="Google-chrome"
-              />
-            </a>
+                Usado para exibir o relógio em tempo real e a data atual automaticamente, provavelmente utilizando setInterval() e Date().</p>
+        <p class="text-gray-400">Visite site - <a href="https://www.atlashost.com.br/" class="text-[#00ff9d]">atlashost.com.br</a></p>
+        <div class="mt-4">
+          <a href="http://www.atlashost.com.br" class="w-7 h-7 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
+            <img src="https://icongr.am/devicon/chrome-original.svg?size=128&color=currentColor" class="w-8 h-8" alt="Acessar site" />
+          </a>
+        </div>
+      </div>
+    </div>
 
+  </div>
+</section>
+
+
+
+    <section id="contact" class="mb-16 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold text-[#00ff9d]">CONTATO</h2>
+        <p class="text-xl mb-8 text-gray-400">Em breve teremos novidades!!</p>
+
+        <!-- Cards de contato -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Card: Email -->
+          <div class="contact-card p-8 rounded-xl fade-in group">
+            <div class="flex items-center gap-6">
+              <div class="contact-icon w-14 h-14 rounded-full flex items-center justify-center">
+                <!-- Ícone Email -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#00ff9d]" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-xl font-bold mb-2">Email</h4>
+                <a href="mailto:jackson9008@live.com" class="text-gray-400 hover:text-[#00ff9d] transition-colors">
+                  jackson9008@live.com
+                </a>
+              </div>
             </div>
           </div>
-      </section>
 
-      <section id="contact" class="mb-16 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-7xl mx-auto">
-          <h2 class="text-2xl md:text-3xl font-bold text-[#00ff9d]">CONTATO</h2>
-          <p class="text-xl mb-8 text-gray-400">Dados para contato !!</p>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="contact-card p-8 rounded-xl fade-in group">
-              <div class="flex items-center gap-6">
-                <div
-                  class="contact-icon w-14 h-14 rounded-full flex items-center justify-center"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-7 w-7 text-[#00ff9d]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h3 class="text-xl font-bold mb-2">Email</h3>
-                  <a
-                    href="mailto:jackson9008@live.com"
-                    class="text-gray-400 hover:text-[#00ff9d] transition-colors"
-                  >
-                    jackson9008@live.com
+          <!-- Card: Contato -->
+          <div class="contact-card p-8 rounded-xl fade-in group">
+            <div class="flex items-center gap-6">
+              <div class="contact-icon w-14 h-14 rounded-full flex items-center justify-center">
+                <!-- Ícone Localização -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#00ff9d]" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-xl font-bold mb-2">Contato</h4>
+                <a href="https://wa.link/a8n0zj" target="_blank"
+                  class="text-gray-400 hover:text-[#00ff9d] transition-colors">
+                  <i class="ion-social-whatsapp"></i> (11) 96114-9524
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card: Redes Sociais -->
+          <div class="contact-card p-8 rounded-xl fade-in group">
+            <div class="flex items-center gap-6">
+              <div class="contact-icon w-14 h-14 rounded-full flex items-center justify-center">
+                <!-- Ícone Chat -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#00ff9d]" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-xl font-bold mb-2">Social</h4>
+                <div class="flex gap-4 mt-1">
+                  <a href="https://www.linkedin.com/in/jackson-psousa/"
+                    class="w-10 h-10 bg-[#0077B5] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                      class="w-6 h-6" alt="LinkedIn" />
+                  </a>
+                  <a href="https://github.com/Jackson9008"
+                    class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                      class="w-6 h-6" alt="GitHub" />
                   </a>
                 </div>
               </div>
             </div>
-
-            <div class="contact-card p-8 rounded-xl fade-in group">
-              <div class="flex items-center gap-6">
-                <div
-                  class="contact-icon w-14 h-14 rounded-full flex items-center justify-center"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-7 w-7 text-[#00ff9d]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h3 class="text-xl font-bold mb-2">Contato</h3>
-                  
-                  <a style="padding: 0px; color: #a4a2a2; cursor: pointer" href="https://wa.link/a8n0zj" target="_blank" title="Whatsapp"><i class="ion-social-whatsapp"></i> (11) 96114-9524</a>
-            
-                </div>
-              </div>
-            </div>
-
-            <div class="contact-card p-8 rounded-xl fade-in group">
-              <div class="flex items-center gap-6">
-                <div
-                  class="contact-icon w-14 h-14 rounded-full flex items-center justify-center"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-7 w-7 text-[#00ff9d]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h3 class="text-xl font-bold mb-2">Social</h3>
-                  <div class="flex gap-4 mt-1">
-                    <a
-                      href="https://www.linkedin.com/in/jackson-psousa/"
-                      class="w-10 h-10 bg-[#0077B5] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-                    >
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                        class="w-6 h-6"
-                        alt="LinkedIn"
-                      />
-                    </a>
-                    <a
-                      href="https://github.com/Jackson9008"
-                      class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-                    >
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        class="w-6 h-6"
-                        alt="GitHub"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Aqui está um fomulário -->
-          <div class="mt-1 p-8 contact-card rounded-xl fade-in">
-            <h3 class="text-2xl font-bold mb-6">Envie uma mensagem</h3>
-            <form action="https://formsubmit.co/jackson9008@live.com" method="POST"
-              class="space-y-6"
-            >
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label
-                    for="name"
-                    class="block text-sm font-medium text-gray-400 mb-2"
-                    >Nome</label
-                  >
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="w-full px-4 py-3 bg-[#222222] border border-gray-700 rounded-lg focus:outline-none focus:border-[#00ff9d] transition-colors text-white"
-                    required
-                  />
-                </div>
-                <div>
-                  <label
-                    for="email"
-                    class="block text-sm font-medium text-gray-400 mb-2"
-                    >Email</label
-                  >
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    class="w-full px-4 py-3 bg-[#222222] border border-gray-700 rounded-lg focus:outline-none focus:border-[#00ff9d] transition-colors text-white"
-                    required
-                  />                  
-                </div>
-              </div>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label
-                  for="phone"
-                  class="block text-sm font-medium text-gray-400 mb-2"
-                  >Telefone</label
-                >
-                <input
-                  type="text"
-                  id="phone"
-                  name="phone"
-                  class="w-full px-4 py-3 bg-[#222222] border border-gray-700 rounded-lg focus:outline-none focus:border-[#00ff9d] transition-colors text-white"
-                  required
-                />
-              </div>
-              <div>
-                <label
-                  for="subject"
-                  class="block text-sm font-medium text-gray-400 mb-2"
-                  >Assunto</label
-                >
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  class="w-full px-4 py-3 bg-[#222222] border border-gray-700 rounded-lg focus:outline-none focus:border-[#00ff9d] transition-colors text-white"
-                  required
-                />
-              </div>
-            </div>          
-              <div>
-                <label
-                  for="message"
-                  class="block text-sm font-medium text-gray-400 mb-2"
-                  >Mensagem</label
-                >
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="4"
-                  class="w-full px-4 py-3 bg-[#222222] border border-gray-700 rounded-lg focus:outline-none focus:border-[#00ff9d] transition-colors text-white resize-none"
-                  required
-                ></textarea>
-              </div>
-              <div>
-                <button
-                  type="submit"
-                  class="w-full md:w-auto px-8 py-3 bg-[#00ff9d] text-black font-semibold rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#00ff9d] focus:ring-opacity-50"
-                >
-                  Enviar Mensagem
-                </button>
-              </div>
-            </form>
-
-            <div id="thank-you-message" style="display: none">
-              <h4 class="text-2xl font-semibold">
-                Obrigado pela sua mensagem!
-              </h4>
-              <p>Seu formulário foi enviado com sucesso.</p>
-            </div>
           </div>
         </div>
-      </section>
 
-      <footer class="border-t border-gray-800 py-12 mt-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div class="col-span-1 md:col-span-2">
-              <div class="text-xl font-bold mb-4">
-                <span class="text-white">Jackson Sousa</span>
-                <span class="block text-sm text-gray-400 mt-1"
-                  >Analista de Sistemas</span
-                >
+        <!-- Formulário -->
+        <div class="mt-1 p-8 contact-card rounded-xl fade-in">
+          <h3 class="text-2xl font-bold mb-6">Envie uma mensagem</h3>
+          <form action="https://formsubmit.co/jackson9008@live.com" method="POST" class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label for="name" class="block text-sm font-medium text-gray-400 mb-2">Nome</label>
+                <input type="text" id="name" name="name"
+                  class="w-full px-4 py-3 bg-[#222222] border border-gray-700 rounded-lg focus:outline-none focus:border-[#00ff9d] transition-colors text-white"
+                  required />
               </div>
-              <p class="text-gray-400 text-sm mb-6">
-                "Transformando ideias em soluções digitais com criatividade e inovação. Cada projeto é pensado para trazer funcionalidade, estética e resultados extraordinários, conectando tecnologia à experiência do usuário de forma única."
-              </p>
-            </div>
-
-            <div>
-              <h4 class="text-lg font-semibold mb-4">Links Rápidos</h4>
-              <ul class="space-y-2">
-                <li>
-                  <a
-                    href="#home"
-                    class="text-gray-400 hover:text-[#00ff9d] transition-colors footer-link"
-                    >Home</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#about"
-                    class="text-gray-400 hover:text-[#00ff9d] transition-colors footer-link"
-                    >Sobre</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#portfolio"
-                    class="text-gray-400 hover:text-[#00ff9d] transition-colors footer-link"
-                    >Portfolio</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#contact"
-                    class="text-gray-400 hover:text-[#00ff9d] transition-colors footer-link"
-                    >Contato</a
-                  >
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 class="text-lg font-semibold mb-4">Social</h4>
-              <div class="flex gap-4 mt-1">
-                <a
-                  href="https://www.linkedin.com/in/jackson-psousa/"
-                  class="w-10 h-10 bg-[#0077B5] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-                >
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                    class="w-6 h-6"
-                    alt="LinkedIn"
-                  />
-                </a>
-                <a
-                  href="https://github.com/Jackson9008"
-                  class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
-                >
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                    class="w-6 h-6"
-                    alt="GitHub"
-                  />
-                </a>
+              <div>
+                <label for="email" class="block text-sm font-medium text-gray-400 mb-2">Email</label>
+                <input type="email" id="email" name="email"
+                  class="w-full px-4 py-3 bg-[#222222] border border-gray-700 rounded-lg focus:outline-none focus:border-[#00ff9d] transition-colors text-white"
+                  required />
               </div>
             </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label for="phone" class="block text-sm font-medium text-gray-400 mb-2">Telefone</label>
+                <input type="text" id="phone" name="phone"
+                  class="w-full px-4 py-3 bg-[#222222] border border-gray-700 rounded-lg focus:outline-none focus:border-[#00ff9d] transition-colors text-white"
+                  required />
+              </div>
+              <div>
+                <label for="subject" class="block text-sm font-medium text-gray-400 mb-2">Assunto</label>
+                <input type="text" id="subject" name="subject"
+                  class="w-full px-4 py-3 bg-[#222222] border border-gray-700 rounded-lg focus:outline-none focus:border-[#00ff9d] transition-colors text-white"
+                  required />
+              </div>
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-400 mb-2">Mensagem</label>
+              <textarea id="message" name="message" rows="4"
+                class="w-full px-4 py-3 bg-[#222222] border border-gray-700 rounded-lg focus:outline-none focus:border-[#00ff9d] transition-colors text-white resize-none"
+                required></textarea>
+            </div>
+            <div>
+              <button type="submit"
+                class="w-full md:w-auto px-8 py-3 bg-[#00ff9d] text-black font-semibold rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#00ff9d] focus:ring-opacity-50">
+                Enviar Mensagem
+              </button>
+            </div>
+          </form>
+
+          <div id="thank-you-message" style="display: none">
+            <h4 class="text-2xl font-semibold">Obrigado pela sua mensagem!</h4>
+            <p>Seu formulário foi enviado com sucesso.</p>
           </div>
+        </div>
+      </div>
+    </section>
 
-          <div
-            class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center"
-          >
-            <p class="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2025 Jackson Sousa. Todos os direitos reservados.
+
+    <footer class="border-t border-gray-800 py-12 mt-16" role="contentinfo">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <section class="col-span-1 md:col-span-2" aria-labelledby="footer-about">
+            <h2 id="footer-about" class="text-xl font-bold mb-4 text-white">
+              Jackson Sousa
+            </h2>
+            <p class="text-sm text-gray-400">Analista de Sistemas</p>
+            <p class="text-gray-400 text-sm mt-4">
+              "Transformando ideias em soluções digitais com criatividade e inovação. Cada projeto é pensado para trazer
+              funcionalidade, estética e resultados extraordinários, conectando tecnologia à experiência do usuário de
+              forma única."
             </p>
-            <div class="flex items-center space-x-4">
-              <a
-                href="#"
-                class="text-gray-400 hover:text-[#00ff9d] transition-colors text-sm"
-                >Política de Privacidade</a
-              >
-              <span class="text-gray-600">•</span>
-              <a
-                href="#"
-                class="text-gray-400 hover:text-[#00ff9d] transition-colors text-sm"
-                >Termos de Uso</a
-              >
-            </div>
-          </div>
+          </section>
+
+          <nav aria-labelledby="footer-links">
+            <h2 id="footer-links" class="text-lg font-semibold mb-4">Links Rápidos</h2>
+            <ul class="space-y-2">
+              <li><a href="#home" class="text-gray-400 hover:text-[#00ff9d] transition-colors">Home</a></li>
+              <li><a href="#about" class="text-gray-400 hover:text-[#00ff9d] transition-colors">Sobre</a></li>
+              <li><a href="#portfolio" class="text-gray-400 hover:text-[#00ff9d] transition-colors">Portfolio</a></li>
+              <li><a href="#contact" class="text-gray-400 hover:text-[#00ff9d] transition-colors">Contato</a></li>
+            </ul>
+          </nav>
+
+          <section aria-labelledby="footer-social">
+            <h2 id="footer-social" class="text-lg font-semibold mb-4">Social</h2>
+            <ul class="flex gap-4 mt-1" role="list">
+              <li>
+                <a href="https://www.linkedin.com/in/jackson-psousa/"
+                  class="w-10 h-10 bg-[#0077B5] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
+                  aria-label="LinkedIn">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                    class="w-6 h-6" alt="LinkedIn" />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Jackson9008"
+                  class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
+                  aria-label="GitHub">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    class="w-6 h-6" alt="GitHub" />
+                </a>
+              </li>
+            </ul>
+          </section>
         </div>
-      </footer>
-    </div>
-    <script src="scrip.js"></script>
-  </body>
+
+        <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p class="text-gray-400 text-sm mb-4 md:mb-0">
+            © 2025 Jackson Sousa. Todos os direitos reservados.
+          </p>
+          <nav aria-label="Políticas do site">
+            <ul class="flex items-center space-x-4 text-sm">
+              <li>
+                <a href="https://www.gov.br/anpd/pt-br/acesso-a-informacao/aviso-de-privacidade"
+                  target="_blank" rel="noopener noreferrer"
+                  class="text-gray-400 hover:text-[#00ff9d] transition-colors">
+                  Política de Privacidade (LGPD)
+                </a>
+              </li>
+              <li><span class="text-gray-600">•</span></li>
+              <li>
+                <a href="https://www.gov.br/pt-br/termos-de-uso" target="_blank" rel="noopener noreferrer"
+                  class="text-gray-400 hover:text-[#00ff9d] transition-colors">
+                  Termos de Uso
+                </a>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+
 </html>
